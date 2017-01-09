@@ -2956,6 +2956,7 @@
 						iframe.style.maxWidth = '100%';
 
 					background.appendChild( iframe );
+					document.querySelector('.reveal > .backgrounds').style['z-index'] = 1;
 				}
 			}
 		}
